@@ -5,10 +5,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class rehearsePerformer {
 
-	public static void main(String[] args) throws PerformanceException{
-		ApplicationContext ctx = new ClassPathXmlApplicationContext(
-				"src/Object/springInAction/Charpter2/spring-idol.xml");
-		
+	public static void main(String args[]){
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-idol.xml");
+		System.out.println(ctx);
 		Performer performer = (Performer) ctx.getBean("duck");
 		performer.performer();
 	}
