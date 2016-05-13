@@ -6,7 +6,7 @@ public class Minstrel {
 		System.out.println("Fa LA la ;The knight is so Brave");
 	}
 	
-	public void singAfter(){
+	public void singAfterQuest(){
 		System.out.println("Tee Hee h;The Brave knight did embark on a quert");
 	}
 }
