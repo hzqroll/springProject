@@ -7,7 +7,7 @@ public class Juggler implements Performer{
 		this.beanBags = beanBags;
 	}
 	
-	public void performer() throws PerformanceException{
+	public void performer(){
 		System.out.println("JUGGLER" + beanBags+"BEANBAGS");
 	}
 	
