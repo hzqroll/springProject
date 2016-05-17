@@ -1,6 +1,6 @@
 package Object.springInAction.Charpter2;
 
 public interface Performer {
-	void performer();
+	void performer() throws PerformanceException;
 
 }
